@@ -7,7 +7,9 @@ def main(args):
     a = int(input("Podaj liczbę: "))
     # b = 5
     b = int(input("Podaj liczbę: "))
-    print("Suma: ", a + b)
+    if (a > b):
+        print(a)
+    print (b)    
     return 0
 
 if __name__ == '__main__':
