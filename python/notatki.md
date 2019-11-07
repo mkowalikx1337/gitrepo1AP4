@@ -22,3 +22,7 @@ algorytm liniowy
 /* 4. print(suma)
 
 **Schmety blokowe**
+
+**Pętle**
+
+zmienna iteracyjna - 
