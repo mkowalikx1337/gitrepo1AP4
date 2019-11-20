@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+
 def main(args):
+    """
+    2)Napisz program, który wypisuje kolejne liczby naturalne oddzielone spacjami z dodatniego przedziału <n,m> określonego przez użytkownika.
+    """
     liczba = 0
     n = int(input("Podaj liczbe n: "))
     m = int(input("Podaj liczbe m: "))
