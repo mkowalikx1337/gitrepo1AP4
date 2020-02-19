@@ -41,8 +41,8 @@ void sumujW(int t[][10], int w, int k, int n)
 
 void sumujK(int t[][10], int w, int k, int n)
 {   
-	int max = 2, min = 1, pozycja = 0; 
-	for(i=1; i<n; i++)
+	int max = 2, min = 1, pozycja = 0, liczba = 0; 
+	for(int i=1; i<n; i++)
     {
         if(liczba<min)
         {
