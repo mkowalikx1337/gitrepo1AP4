@@ -40,7 +40,23 @@ void sumujW(int t[][10], int w, int k, int n)
 }
 
 void sumujK(int t[][10], int w, int k, int n)
-{    
+{   
+	int max = 2, min = 1, pozycja = 0; 
+	for(i=1; i<n; i++)
+    {
+        if(liczba<min)
+        {
+            min=liczba;
+        }
+        if(liczba>max)
+        {
+            max=liczba;
+        }
+        pozycja = i;
+    }
+    cout << endl;
+    cout << "Liczba max: " << max << ", " << "Występuje w kolumnie: " << i << endl;
+
 }
 
 int main(int argc, char **argv)
@@ -53,6 +69,7 @@ int main(int argc, char **argv)
     int t[w][10];
     //wypelnij(t, w, k, n);
     sumujW(t, w, k, n);
+    sumujK(t, w, k, n);
 	return 0;
 }
 
